@@ -1,4 +1,11 @@
-const app=() =>{
+function app1(){
+    const ans = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("App1 Resolved");
+        }, 2000);
+    })
+    console.log(ans);
+}const app=() =>{
     const  s = "Lewis Hamilton";
     const ans = s.split(" ")[0]
     console.log(ans);
