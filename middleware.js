@@ -11,3 +11,7 @@ const app = () => {
 }
 }
 app();
+
+const app1 = () =>{
+    console.log("This is middleware")
+}
