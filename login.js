@@ -1,7 +1,4 @@
 console.log("Login in Module Working");
-
-
-
 const app = (user,pass) =>{
     console.log("User:", user);
 
@@ -18,3 +15,6 @@ const app1 = (user1) => {
         console.log("Here user exist")
     }
 }
+
+
+app1("admin")
