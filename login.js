@@ -7,3 +7,14 @@ const app = (user,pass) =>{
 
     console.log("Pass:", pass);
 }
+
+const app1 = (user1) => {
+
+      if(!user1 || user1.length()==0){
+          console.log("There is no such user exist")
+          
+      }
+    else{
+        console.log("Here user exist")
+    }
+}
