@@ -15,3 +15,12 @@ function app2(){
 
 const ans1 = app2();
 console.log(ans1);
+
+function app3(){
+
+    const [a,b] = [1,2,3]
+    console.log(a);
+    console.log(b)
+}
+
+app3()
