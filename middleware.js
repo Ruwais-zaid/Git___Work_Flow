@@ -11,3 +11,12 @@ const app = () => {
 }
 }
 app();
+const app1 = () =>{
+    
+    const user = {name:"admin123",role:"admin"};
+    if(user?.name){
+        console.log("User name is:", user.name);
+    } else {
+        console.log("No user name found");
+    }
+}

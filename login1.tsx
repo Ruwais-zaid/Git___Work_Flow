@@ -6,7 +6,7 @@ enum role {
 type user = {
     name: string;
     role: role;
-}
+} 
 
 const getUser = (): Promise<user> => {
     return new Promise((resolve,reject)=>{
@@ -15,5 +15,6 @@ const getUser = (): Promise<user> => {
         }, 1000);
     })
 }
+
 
 getUser().then((user) => console.log(user.role)).catch((err) => console.log(err));
