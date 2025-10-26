@@ -6,3 +6,11 @@ const payment = (paymenttype,user) =>{
 }
 
 payment("creditcard","john");
+
+const RazorpayPayment = (paymenttype,user) =>{
+    if(paymenttype === "Razorpay"){
+        return `payment done using ${paymenttype} by ${user}`;
+    }
+}
+
+RazorpayPayment("Razorpay","admin");
