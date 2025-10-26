@@ -18,3 +18,14 @@ const getUser = (): Promise<user> => {
 
 
 getUser().then((user) => console.log(user.role)).catch((err) => console.log(err));
+// async await
+const displayUserRole = async () : Promise<void> => {
+    try {
+        const user = await getUser();
+        console.log(user.role);
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+displayUserRole();
