@@ -6,3 +6,11 @@ const app = () =>{
 }
 
 app();
+
+const app1 = () =>{
+    const hobbies = ["Dancing", "Singing", "Coding"];
+    for (const hobby of hobbies){
+        console.log(hobby);
+    }
+}
+app1();
