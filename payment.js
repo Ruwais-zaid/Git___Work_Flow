@@ -14,3 +14,11 @@ const RazorpayPayment = (paymenttype,user) =>{
 }
 
 RazorpayPayment("Razorpay","admin");
+
+const PaypalPayment = (paymenttype,user) =>{
+    if(paymenttype === "Paypal"){
+        return `payment done using ${paymenttype} by ${user}`;
+    }
+}
+
+PaypalPayment("Paypal","user");
