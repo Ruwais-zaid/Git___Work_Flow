@@ -33,3 +33,4 @@ const StripePayment =(paymenttype,user)=>{
     }
 
 }
+console.log("Hi")
