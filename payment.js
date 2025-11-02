@@ -24,3 +24,12 @@ const PaypalPayment = (paymenttype,user) =>{
 PaypalPayment("Paypal","user");
 
 console.log("Payment Module Working");
+
+const StripePayment =(paymenttype,user)=>{
+
+    if(paymenttype=='card' && user=='user'){
+
+        console.log("Payment is done from card")
+    }
+
+}
