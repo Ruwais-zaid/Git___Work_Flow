@@ -1,0 +1,54 @@
+function app1(){
+    const ans = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("App1 Resolved");
+        }, 2000);
+    })
+    console.log(ans);
+}const app=() =>{
+    const  s = "Lewis Hamilton";
+    const ans = s.split(" ")[0]
+    console.log(ans);
+}
+
+app()
+
+function app2(){
+
+    var a = 10;
+    var b = 20;
+    return a + b;
+}
+
+const ans1 = app2();
+console.log(ans1);
+
+function app3(){
+
+    const [a,b] = [1,2,3]
+    console.log(a);
+    console.log(b)
+}
+
+app3()
+function app4(){
+    const obj = {
+        name: "Lewis Hamilton",
+        team: "Mercedes",
+        age: 36
+    }
+
+    const {name, team, age} = obj;
+    console.log(name);
+    console.log(team);
+    console.log(age);
+}
+
+app2();
+
+function app3(){
+    console.log("App3 Function Executed");
+}
+app4();
+
+console.log("Testing executed")
